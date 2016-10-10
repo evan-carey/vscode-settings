@@ -1,0 +1,16 @@
+{
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.js.map": true,
+        "dist": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "dist": true
+    },
+    // Auto Import extension "steoates.autoimport"
+    "autoimport.filesToScan": "**/*.ts",
+    "autoimport.spaceBetweenBraces": true
+}
