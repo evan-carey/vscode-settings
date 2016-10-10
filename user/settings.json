@@ -1,0 +1,17 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.wrappingColumn": 0,
+    "editor.fontSize": 13,
+    "editor.renderWhitespace": "none",
+    "editor.wrappingIndent": "none",
+    "window.reopenFolders": "all",
+    "files.trimTrailingWhitespace": true,
+    "explorer.workingFiles.maxVisible": 12,
+    "explorer.autoReveal": false,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "terminal.external.windowsExec": "\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.shell.windows": "\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "editor.renderIndentGuides": true,
+    "editor.formatOnSave": true
+}
