@@ -1,0 +1,22 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+alt+s",
+        "command": "workbench.action.files.saveAll"
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "workbench.action.tasks.terminate"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "workbench.action.tasks.runTask"
+    },
+    {
+        // Do not accept TypeScript autocomplete suggestion on "."
+        "key": ".",
+        // "command": "^acceptSelectedSuggestion",
+        "command": "",
+        "when": "editorTextFocus && suggestWidgetVisible && suggestionSupportsAcceptOnKey && editorLangId == 'typescript'"
+    }
+]
