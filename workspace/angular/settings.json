@@ -1,0 +1,42 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "dist": true,
+        "coverage": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "dist": true,
+        "coverage": true
+    },
+    "editor.formatOnSave": true,
+
+    // Auto Import extension "steoates.autoimport"
+    "autoimport.filesToScan": "src/**/*.ts",
+    "autoimport.autoComplete": true,
+    "autoimport.spaceBetweenBraces": true,
+
+    // requires extension "VSCode simpler Icons with Angular"
+    "workbench.iconTheme": "vscode-simpler-icons",
+
+    "tslint.run": "onSave",
+    // TypeScript Hero settings
+    "typescriptHero.resolver.insertSemicolons": true,
+    "typescriptHero.resolver.insertSpaceBeforeAndAfterImportBraces": true,
+    "typescriptHero.resolver.multiLineWrapThreshold": 120,
+    "typescriptHero.resolver.newImportLocation": "TopOfFile",
+    "typescriptHero.restartDebugger.watchFolders": [
+        "build",
+        "out",
+        "dist"
+    ],
+    "typescriptHero.resolver.pathStringDelimiter": "'",
+    "typescriptHero.resolver.ignorePatterns": [
+        "build",
+        "out",
+        "dist"
+    ]
+}

@@ -30,5 +30,6 @@
     "html.format.wrapAttributes": "auto",
     "html.suggest.html5": true,
     "typescript.check.tscVersion": false,
-    "workbench.colorTheme": "Monokai"
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconThme": "vs-seti"
 }
