@@ -31,5 +31,6 @@
     "html.suggest.html5": true,
     "typescript.check.tscVersion": false,
     "workbench.colorTheme": "Monokai",
-    "workbench.iconThme": "vs-seti"
+    "workbench.iconThme": "vs-seti",
+    "typescript.implementationsCodeLens.enabled": true
 }
